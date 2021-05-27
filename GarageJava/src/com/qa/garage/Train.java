@@ -1,10 +1,30 @@
 package com.qa.garage;
 
-public class Train {
+public class Train extends Vehicle {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public Train(int trainID, String name, int year, double value) {
+		super(trainID, name, year, value);
+		
+	}
+	
+	
+	
+	
+	@Override
+	public void start() {
+		
+	}
+	
+	@Override
+	public void stop() {
 
 	}
+	
+	@Override
+	public String toString() {
+		return "[(Train Name = " + getName() + "), (Year = " + getYear() +"), (invoice amount = $" + getValue() +")]\n";
+	}
+		
+
 
 }

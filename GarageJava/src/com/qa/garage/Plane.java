@@ -1,10 +1,26 @@
 package com.qa.garage;
 
-public class Plane {
+public class Plane extends Vehicle {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		public Plane(int planeID, String name, int year, double value) {
+			super(planeID, name, year, value);
+		}
+		
+		@Override
+		public void start() {
+			
+		}
+		
+		@Override
+		public void stop() {
+	
+		}
+		
+		@Override
+		public String toString() {
+			return "[(Plane Name = " + getName() + "), (Year = " + getYear() +"), (invoice amount = $" + getValue() +")]\n";
+		}
+			
 	}
 
-}
+
