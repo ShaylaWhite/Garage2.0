@@ -4,6 +4,7 @@ public class Train extends Vehicle {
 
 	public Train(int trainID, String name, int year, double value) {
 		super(trainID, name, year, value);
+		this.value = value * .2;
 		
 	}
 	

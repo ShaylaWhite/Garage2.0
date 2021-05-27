@@ -4,7 +4,6 @@ package com.qa.garage;
 
 public class Car extends Vehicle {
 	
-	private double value;
 
 	public Car(int carId, String name, int year, double value) {
 		super(carId, name, year, value);

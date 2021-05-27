@@ -2,6 +2,7 @@ package com.qa.garage;
 
 import java.util.ArrayList;
 
+
 public class Runner {
 	
 	
@@ -17,7 +18,8 @@ public class Runner {
 		G1.addvehicle(b);
 		G1.addvehicle(c);
 		
-		G1.printContents();
+		G1.calculateBill();
+		//G1.printContents();
 	
 
 	}

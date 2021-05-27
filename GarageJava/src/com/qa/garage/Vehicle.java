@@ -6,7 +6,7 @@ public class Vehicle {
 	private int id;
 	private String name;
 	private int year;
-	private double value;
+	protected double value;
 	private String engineState; //OFF or ON
 	
 	//empty object
